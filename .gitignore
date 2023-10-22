@@ -20,6 +20,9 @@ __pycache__
 /lib
 /lib64
 /venv
+/.idea
+.idea
+.idea/
 
 # Installer logs
 pip-log.txt
