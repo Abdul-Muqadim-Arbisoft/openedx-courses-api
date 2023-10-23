@@ -20,7 +20,6 @@ class CoursesApiConfig(AppConfig):
                 PluginURLs.NAMESPACE: 'courses_api',
                 PluginURLs.REGEX: r'^api/courses_api/',
                 PluginURLs.RELATIVE_PATH: 'urls',
-                heheh
             }
         }
     }
