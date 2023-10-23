@@ -1,8 +1,11 @@
+"""
+URLs for edx_course.
+"""
 from django.urls import path
-from courses_api.views import get_courses
+
+from courses_api.views import CourseListAPIView
+
 
 urlpatterns = [
-    path(
-        'list/', get_courses, name='get_courses_list'
-    )
+    path('list/', CourseListAPIView.as_view(), name='course_list'),
 ]
